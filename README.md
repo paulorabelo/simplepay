@@ -17,7 +17,7 @@ Dois tipos de usuários (usuário/lojista), com carteira que realizam transferê
 - Java
 - Spring
   - Spring Web (WEB)
-    - webabb
+    - webapp
     - RESTFul
     - MVC
     - Apache Tomcat
