@@ -2,14 +2,14 @@
 Backend de pagamentos em Java e SpringBoot
 
 Cenário:
-Dois tipos de usuários (usuário/lojista), com carteira que realizam transferência entre si.
-- Documento (CPF/CNPJ) único no sistema
+Dois tipos de usuários (usuário / lojista), com carteira que realizam transferência entre si.
+- Documento (CPF / CNPJ) único no sistema
 - Usuário faz transferência para Usuário e lojista
 - Lojista apenas recebe transferência
-- Validação de saldo antes de transferência
+- Validação de saldo antes da transferência
 - Para finalizar transferência é consultado serviço autorizador externo.
-- Operação de transferência é uma transação(podendo ser revertida em qualquer caso de insconsistência)
-- Envio de notificação para Usuário ou lojista (serviço de terceiro - em implantação)
+- Operação de transferência é uma transação (podendo ser revertida em qualquer caso de inconsistência)
+- Envio de notificação para usuário ou lojista (serviço de terceiro - em implantação)
 - Serviço tipo RESTFul
 
 ## Tecnologias empregadas
@@ -17,7 +17,7 @@ Dois tipos de usuários (usuário/lojista), com carteira que realizam transferê
 - Java
 - Spring
   - Spring Web (WEB)
-    - webabb
+    - webapp
     - RESTFul
     - MVC
     - Apache Tomcat
